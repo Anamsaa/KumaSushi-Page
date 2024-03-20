@@ -61,7 +61,7 @@ En esta carpeta se encuentran:
 
     * Dentro de la carpeta del proyecto, se encuentran 4 archivos html referentes a las páginas construidas para la elaboración de nuestra web, de las cuales hablaremos a continuación.
 
-[Organización](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/80f04a23-f1dd-4616-8cba-fa9c21d65f39)
+![Organización](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/80f04a23-f1dd-4616-8cba-fa9c21d65f39)
 
 
 ## Páginas
