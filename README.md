@@ -71,7 +71,8 @@ Teniendo en cuenta la idea y el objetivo del proyecto. Se desarrollan cuatro pá
 
 ### Main
 
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/9317d6e1-098f-4482-bebc-874cc63247e6)
+![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2ed01849-f254-440e-a327-90fd7096187c)
 
 ### Inicio
 
@@ -90,8 +91,8 @@ Teniendo en cuenta la idea y el objetivo del proyecto. Se desarrollan cuatro pá
 
 ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2656eac3-0c5f-4b63-adeb-213496e4a02e)
 ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/42ad818c-8c52-45b3-9e8e-b41994564259)
-![Uploading image.png…]()
-
+![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/eaef1051-a513-4305-80ad-8a670761791b)
+![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/0dd8cb0c-58f6-4d2e-963d-a7342c1a7cc6)
 
 ## Aspectos requeridos
 
