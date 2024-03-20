@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Estilos-->
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+     <!--Fuente-->
+    <link rel="stylesheet" href="assets/fonts/Montserrat/static/Monserrat.css">
+    <!--Hojas de estilo-->
+    <link rel="stylesheet" href="/assets/css/styleCarta.css">
+
+    <!--Utilizo refer para permitir que cargue el documento HTML primero-->
+    <script src="/assets/js/carta.js" refer></script> 
+    <title>Carta</title>
+
+</head>
+<body>
+        <header>
+            <nav class="navbar"> <!--Primer hijo del header-->
+                <div class="logo"><a href="Main.html">Kuma Sushi</a></div>
+                <ul class="links">
+                    <li><a href="Main.html">Home</a></li>
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="Carta.html">Carta</a></li>
+                </ul>
+                <a href="Reservas.html" class="action_btn">Reservas</a>
+                <div class="toggle_btn" id="toggle_btn" onclick="openmenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav> 
+            
+            <div class="dropdown_menu open" id="dropdown_menu_open">  <!--Segundo hijo del header-->         
+                    <li><a href="Main.html">Home</a></li>
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="Carta.html">Carta</a></li>
+                    <li><a href="Reservas.html" class="action_btn">Reservas</a></li>
+            </div>
+        </header>
+
+        <section class="wrap-banner-carta">
+            <h1>Menú</h1>
+            <div class="banner-carta">
+                <img src="/assets/img/carta/banner1.jpg" alt="plato sushi"> 
+            </div>
+        </section>
+         
+        <main class="carta">
+            <!--Aquí empieza la carta-->
+            <section class="wrap">
+                <div class="wrap-title-section">       <!--Sección de entrantes-->
+                    <button onclick="ocultarEntrantes()">Entrantes</button>
+                </div>
+                <div class="wrap colum-2 carta" id="wrap-entrantes"> <!--Cada producto del menú está contenido en un div-->
+                    <div class="plato-carta">
+                        <div class="img-plato-carta"> <!--Se compone de imagen-->
+                            <img id="Edamame" src="/assets/img/carta/Edamame.png" alt="Edamame">
+                        </div>
+                        <div class="title-plato-carta">
+                            <h4>Edamame</h4>  <!--Título-->
+                            <p> Vainas de soja al vapor con sal marina.</p> <!--Descripción del producto-->
+                        </div>
+                        <div class="precio-plato-carta">
+                            <span>2,95 €</span> <!--Precio-->
+                        </div>
+                    </div>
+                    <div class="plato-carta">
+                        <div class="img-plato-carta">
+                            <img id="Edamame" src="/assets/img/carta/SopaMiso.png" alt="Sopa Miso">
+                        </div>
+                        <div class="title-plato-carta">
+                            <h4>Sopa Miso</h4>
+                            <p> Caldo de miso con algas, tofu y cebollín.</p>
+                        </div>
+                        <div class="precio-plato-carta">
+                            <span>3,40 €</span>
+                        </div>
+                    </div>
+                    <div class="plato-carta">
+                        <div class="img-plato-carta">
+                            <img id="Gyoza" src="/assets/img/carta/Gyosas.png" alt="Gyoza">
+                        </div>
+                        <div class="title-plato-carta">
+                            <h4>Gyoza</h4>
+                            <p>Dumplings japoneses rellenos de cerdo o vegetales, servidos con salsa de soja. <span class="Plato-pieza">(6 piezas)</span></p>
+                        </div>
+                        <div class="precio-plato-carta">
+                            <span>6 €</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrap-title-section">         <!--Sección de Nigiris-->
+                    <button onclick="ocultarNigiri()">Nigiri-sushi</button>
+                </div>
+                <div class="wrap colum-2 carta" id="wrap-nigiri">
+                    <div class="plato-carta">
+                        <div class="img-plato-carta">
+                            <img id="Sake" src="/assets/img/carta/SakeNigiri.png" alt="Sake">
+                        </div>
+                        <div class="title-plato-carta">
+                            <h4>Sake Nigiri</h4>
+                            <p>Salmón fresco sobre una pequeña bola de arroz. <span class="Plato-pieza">(2 piezas)</span></p>
+                        </div>
+                        <div class="precio-plato-carta">
+                            <span>4,95 €</span>
+                        </div>
+                    </div>
+                    <div class="plato-carta">
+                        <div class="img-plato-carta">
+                            <img id="Maguro" src="/assets/img/carta/MaguroNigiri.png" alt="Maguro">
+                        </div>
+                        <div class="title-plato-carta">
+                            <h4>Maguro Nigiri</h4>
+                            <p>Atún rojo fresco sobre una pequeña bola de arroz. <span class="Plato-pieza">(2 piezas)</span></p>
+                        </div>
+                        <div class="precio-plato-carta">
+                            <span>5,40 €</span>
+                        </div>
+                    </div>
+                    <div class="plato-carta">
+                        <div class="img-plato-carta">
+                            <img id="Ebi" src="/assets/img/carta/EbiNigiri.png" alt="Ebi Nigiri">
+                        </div>
+                        <div class="title-plato-carta">
+                            <h4>Ebi Nigiri</h4>
+                            <p>Langostino cocido sobre una pequeña bola de arroz. <span class="Plato-pieza">(2 piezas)</span></p>
+                        </div>
+                        <div class="precio-plato-carta">
+                            <span>4,50 €</span>
+                        </div>
+                    </div>
+                    <div class="plato-carta">
+                        <div class="img-plato-carta">
+                            <img id="Tamago" src="/assets/img/carta/TamagoNigiri.png" alt="Tamago">
+                        </div>
+                        <div class="title-plato-carta">
+                            <h4>Tamago Nigiri</h4>
+                            <p> Tortilla japonesa dulce sobre una pequeña bola de arroz. <span class="Plato-pieza">(2 piezas)</span></p>
+                        </div>
+                        <div class="precio-plato-carta">
+                            <span>3,50 €</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrap-title-section">          <!--Sección de Sashimi-->
+                    <button onclick="ocultarSashimi()">Sashimi</button>
+                </div>
+                <div class="wrap colum-2 carta" id="wrap-sashimi">
+                    <div class="plato-carta">
+                        <div class="img-plato-carta">
+                            <img id="Sashimi" src="/assets/img/carta/Sashimi.png" alt="Sashimi Moriawase">
+                        </div>
+                        <div class="title-plato-carta">
+                            <h4>Sashimi Moriawase</h4>
+                            <p>Variedad de finas láminas de pescado crudo: salmón, atún, hamachi y pez mantequilla. <span class="Plato-pieza">(15 piezas)</span></p>
+                        </div>
+                        <div class="precio-plato-carta">
+                            <span>12 €</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrap-title-section">          <!--Sección de Makis-->
+                    <button onclick="ocultarMakis()">Makis</button>
+                </div>
+                <div class="wrap colum-2 carta" id="wrap-makis">
+                    <div class="plato-carta">
+                        <div class="img-plato-carta">
+                            <img id="California" src="/assets/img/carta/Californiarolls.png" alt="California Roll">
+                        </div>
+                        <div class="title-plato-carta">
+                            <h4>California Roll</h4>
+                            <p>Salmón, aguacate, pepino, envuelto en alga y arroz. <span class="Plato-pieza">(8 piezas)</span></p>
+                        </div>
+                        <div class="precio-plato-carta">
+                            <span>7 €</span>
+                        </div>
+                    </div>
+                    <div class="plato-carta">
+                        <div class="img-plato-carta">
+                            <img id="Spicy" src="/assets/img/carta/Spicytunarolls.png" alt="Spicy Tuna Roll">
+                        </div>
+                        <div class="title-plato-carta">
+                            <h4>Spicy Tuna Roll</h4>
+                            <p>Atún picante, aguacate, cebolla verde, envuelto en alga y arroz. <span class="Plato-pieza">(8 piezas)</span></p>
+                        </div>
+                        <div class="precio-plato-carta">
+                            <span>8,50 €</span>
+                        </div>
+                    </div>
+                    <div class="plato-carta">
+                        <div class="img-plato-carta">
+                            <img id="Dragon" src="/assets/img/carta/DragonSushi.png" alt="Dragon Sushiz">
+                        </div>
+                        <div class="title-plato-carta">
+                            <h4>Dragon Roll</h4>
+                            <p>Langostino tempura, aguacate, envuelto en anguila y aguacate, cubierto con salsa eel. <span class="Plato-pieza">(8 piezas)</span></p>
+                        </div>
+                        <div class="precio-plato-carta">
+                            <span>10 €</span>
+                        </div>
+                    </div>
+                    <div class="plato-carta">
+                        <div class="img-plato-carta">
+                            <img id="Vegetarian" src="/assets/img/carta/CaliforniaVeggie.png" alt="Vegetarian Roll">
+                        </div>
+                        <div class="title-plato-carta">
+                            <h4>Vegetarian Roll</h4>
+                            <p> Aguacate, pepino, zanahoria rallada, envuelto en alga y arroz. <span class="Plato-pieza">(8 piezas)</span></p>
+                        </div>
+                        <div class="precio-plato-carta">
+                            <span>6 €</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrap-title-section">         <!--Sección de Platos calientes-->
+                    <button onclick="ocultarPlatos()">Platos calientes</button>
+                </div>
+                <div class="wrap colum-2 carta" id="wrap-platos">
+                    <div class="plato-carta">
+                        <div class="img-plato-carta">
+                            <img id="Yakitori" src="/assets/img/carta/Yakitori.png" alt="Yakitori">
+                        </div>
+                        <div class="title-plato-carta">
+                            <h4>Yakitori</h4>
+                            <p>Brochetas de pollo a la parrilla con salsa teriyaki. <span class="Plato-pieza">(5 piezas)</span></p>
+                        </div>
+                        <div class="precio-plato-carta">
+                            <span>7,50 €</span>
+                        </div>
+                    </div>
+                    <div class="plato-carta">
+                        <div class="img-plato-carta">
+                            <img id="Tempura" src="/assets/img/carta/Moriawase.png" alt="Tempura">
+                        </div>
+                        <div class="title-plato-carta">
+                            <h4>Tempura Moriawase</h4>
+                            <p>Variedad de tempura crujiente: langostinos, verduras, y calabaza.</p>
+                        </div>
+                        <div class="precio-plato-carta">
+                            <span>9,80 €</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrap-title-section">       <!--Sección de Postres-->
+                    <button onclick="ocultarPostres()">Postres</button>
+                </div>
+                    <div class="wrap colum-2 carta" id="wrap-postres">
+                        <div class="plato-carta">
+                            <div class="img-plato-carta">
+                                <img id="Mochi" src="/assets/img/carta/Mochi.png" alt="Mochi Helado">
+                            </div>
+                            <div class="title-plato-carta">
+                                <h4>Mochi Helado</h4>
+                                <p>Bolas de helado envueltas en masa de arroz glutinoso. <span class="Plato-pieza">(3 piezas)</span></p>
+                            </div>
+                            <div class="precio-plato-carta">
+                                <span>4 €</span>
+                            </div>
+                        </div>
+                        <div class="plato-carta">
+                            <div class="img-plato-carta">
+                                <img id="Matcha" src="/assets/img/carta/MatchaCheesecake.png" alt="Matcha">
+                            </div>
+                            <div class="title-plato-carta">
+                                <h4>Matcha Cheesecake</h4>
+                                <p>Cheesecake con sabor a té matcha, acompañado de salsa de chocolate.</p>
+                            </div>
+                            <div class="precio-plato-carta">
+                                <span>4,50 €</span>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="wrap-title-section">      <!--Sección de Bebidas-->
+                    <button onclick="ocultarBebidas()">Bebidas</button>
+                </div>
+                        <div class="wrap colum-2 carta" id="wrap-bebidas">
+                            <div class="plato-carta">
+                                <div class="img-plato-carta">
+                                    <img id="Sake" src="/assets/img/carta/Sake.png" alt="Sake">
+                                </div>
+                                <div class="title-plato-carta">
+                                    <h4>Sake</h4>
+                                    <p>Variedades premium de sake caliente o frío. <span class="Plato-pieza">(Por copa)</span></p>
+                                </div>
+                                <div class="precio-plato-carta">
+                                    <span>5 €</span>
+                                </div>
+                            </div>
+                            <div class="plato-carta">
+                                <div class="img-plato-carta">
+                                    <img id="Te" src="/assets/img/carta/teverde.png" alt="Te">
+                                </div>
+                                <div class="title-plato-carta">
+                                    <h4>Té Verde</h4>
+                                    <p>Té verde japonés tradicional.</p>
+                                </div>
+                                <div class="precio-plato-carta">
+                                    <span>2,50 €</span>
+                                </div>
+                            </div>
+                            <div class="plato-carta">
+                                <div class="img-plato-carta">
+                                    <img id="Sodas" src="/assets/img/carta/sodas.png" alt="Sodas">
+                                </div>
+                                <div class="title-plato-carta">
+                                    <h4>Sodas Japonesas</h4>
+                                    <p>Selección de sodas japonesas importadas.</p>
+                                </div>
+                                <div class="precio-plato-carta">
+                                    <span>1,95 €</span>
+                                </div>
+                            </div>
+                        </div>
+            </section>
+
+        </main> 
+ 
+        <footer class= "footer"> <!--Aquí empieza el footer-->
+            <div class="wrap-footer">
+                <div class="text-element-footer element-footer">
+                    <h3 class="main-c"> Sobre nosotros</h3>
+                    <p><span class="texto">Kuma Sushi</span> fue producto de dos amigos en su impulso 
+                        de fusionar dos cosas que consideran relevantes. Su amor
+                        por la cultura japónesa (Y lo que ella sugiere). Así como, 
+                        la importancia de generar un espacio con cáracter familiar, 
+                        un lugar con calidez donde quieras quedarte mucho más tiempo 
+                        con los que estimas. 
+                        <span class="Bienvenido">¡Bienvenidos a KumaSushi!</span>
+                    </p>
+                </div>
+
+                <div class="text-element-footer">
+                    <h5>Dirección</h5>
+                    <ul>
+                        <li>Carrer inesperat, 5</li>
+                        <li>Son Riera, Palma - 07004</li>
+                        <li>Móvil: (+34) 600 22 33 44</li>
+                        <li>Télefono: (+34) 900 01 02 03</li>
+                    </ul>
+                </div>
+
+                <div class="text-element-footer">
+                    <h5>Más Información</h5>
+                    <ul>
+                        <li>
+                            <a href="Home.html">Principal</a>
+                        </li>
+                        <li>
+                            <a href="Carta.html">Carta</a>
+                        </li>
+                        <li>
+                            <a href="Reservas.html">Reservas</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="social-element-footer">
+                    <h5>Síguenos</h5>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/?locale=ca_ES">
+                                <i class="fa-brands fa-facebook"></i>     
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/?lang=ca">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            <div class="footer-creds">
+                    <div class="copy-creds">
+                        <p>@2024 · Todos los derechos reservados. </p>
+                    </div>
+                    <div class="legal-creds">
+                        <ul>
+                            <li>
+                                <a href="https://www.cookiebot.com/es/politica-de-privacidad-para-mi-web/?utm_source=google&utm_medium=cpc&utm_term=&utm_campaign=cb_dm_ww_spa_dsa_search_prf_lead_n_ca&utm_ad_group=ww-es-blog-es&gclid=CjwKCAiAvdCrBhBREiwAX6-6UunD9OQKy4jSUyHLOgn1K6mcwQk2L_N9OjSuTdRiRYHQs_s1p7qX2xoCIOgQAvD_BwE">Política de Privacidad</a>
+                            </li>
+                            <li>
+                                <a href="https://www.cookiebot.com/es/politica-de-privacidad-para-mi-web/?utm_source=google&utm_medium=cpc&utm_term=&utm_campaign=cb_dm_ww_spa_dsa_search_prf_lead_n_ca&utm_ad_group=ww-es-blog-es&gclid=CjwKCAiAvdCrBhBREiwAX6-6UunD9OQKy4jSUyHLOgn1K6mcwQk2L_N9OjSuTdRiRYHQs_s1p7qX2xoCIOgQAvD_BwE">Política de Cookies</a>
+                            </li>
+                            <li>
+                                <a href="https://www.cookiebot.com/es/politica-de-privacidad-para-mi-web/?utm_source=google&utm_medium=cpc&utm_term=&utm_campaign=cb_dm_ww_spa_dsa_search_prf_lead_n_ca&utm_ad_group=ww-es-blog-es&gclid=CjwKCAiAvdCrBhBREiwAX6-6UunD9OQKy4jSUyHLOgn1K6mcwQk2L_N9OjSuTdRiRYHQs_s1p7qX2xoCIOgQAvD_BwE">Aviso Legal</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            </div>
+        </footer> 
+ </body>
+ </html>

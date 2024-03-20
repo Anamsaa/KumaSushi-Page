@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!--Estilos-->
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+     <!--Fuente-->
+    <link rel="stylesheet" href="assets/fonts/Montserrat/static/Monserrat.css">
+    <!--Hojas de estilo-->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>Reservas</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar"> <!--Primer hijo del header-->
+            <div class="logo"><a href="Main.html">Kuma Sushi</a></div>
+            <ul class="links">
+                <li><a href="Main.html">Home</a></li>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Carta.html">Carta</a></li>
+            </ul>
+            <a href="Reservas.html" class="action_btn">Reservas</a>
+            <div class="toggle_btn" id="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav> 
+        
+        <div class="dropdown_menu open">  <!--Segundo hijo del header-->         
+                <li><a href="Main.html">Home</a></li>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Carta.html">Carta</a></li>
+                <li><a href="Reservas.html" class="action_btn">Reservas</a></li>
+        </div>
+    </header>
+
+    <section class="wrap-banner-reserva">
+        <h1>Información reserva</h1>
+        <div class="banner-reserva">
+            <img src="/assets/img/reserva/banner1.jpg" alt="plato sushi"> 
+        </div>
+    </section>
+
+    <!--En el main creamos todo el contenido principal de la página, en este caso que parezca que es para poder reservar una mesa-->
+    <main>
+        <div class="wrap-reservas">
+            <div class="reservas-informacion">
+                 <!--<p>Para realizar una reserva comunicarse a los siguientes números:  </p>
+                 <p>Télefono de contacto: <span class="destacable">(+34) 900 01 02 03</span></p>
+                 <p>Whatsapp: <span class="destacable">(+34) 600 22 33 44</span></p>-->
+                 <form action="#" class="form-reserva" onsubmit="return validacion()">
+ 
+                     <div class = "segment">
+                         <h3 id="TitForm">Datos de Reserva</h3>
+                     </div>
+ 
+                     <label for="NameForm">
+                         <input type="text" placeholder="Nombre" id="NameForm">
+                     </label>
+                     <label for="apellidos">
+                         <input type="text" placeholder="Apellido" id="apellidos"> 
+                     </label>
+                     <label for="correo">
+                         <input type="email" placeholder="Correo Electrónico" id="correo">
+                     </label>
+                     <label for="NumTelf">
+                         <input type="tel" placeholder="Núm. Teléf" id="NumTelf"> 
+                     </label>
+ 
+                     <label class="content-select">
+                         <h3>Cantidad de personas</h3>
+                         <select name="NumPers" id="NumPers">
+                             <option value="1">1</option>
+                             <option value="2">2</option>
+                             <option value="3">3</option>
+                             <option value="4">4</option>
+                             <option value="5">5</option>
+                             <option value="6">6</option>
+                             <option value="7">7</option>
+                             <option value="8">8</option>
+                         </select>
+                     </label>
+                     <label class="content-select">
+                         <h3>Hora de reserva</h3>
+                         <select name="Horario" id="Horario">
+                             <option value="12">12h</option>
+                             <option value="12">13h</option>
+                             <option value="12">14h</option>
+                             <option value="12">18h</option>
+                             <option value="12">19h</option>
+                             <option value="12">20h</option>
+                             <option value="12">21h</option>
+                         </select>
+                     </label>
+                     <input type="submit" value="Enviar reserva" class="red"><!--<i class= "icon ion-md-lock"></i>-->
+                 </form>
+            </div> 
+                
+            <div class="Button-Horario">
+                <button onclick="ocultarHorarios()">Horario</button>
+            </div>
+           <div class="horarios-informacion" id="horario">
+                <h3>Horarios</h3>
+                <h5>Horario semanal</h5>
+                <p>De 12:00h - 15:00h</p>
+                <p>Y de 18:00h - 22:00h</p>
+
+                <h5>Sábado y domingo</h5>
+                <p>De 20:00h a 23:00h</p>
+
+                <h5>Miércoles</h5>
+                <p>De 20:00h a 23:00h</p>
+            </div>
+
+            <div class="Button-Mail">
+                <button onclick="ocultarCorreo()">Contacto</button>
+            </div>
+            <div class="mail-informacion" id="mails">
+                <h3>Correo electrónico</h3>
+                <p>Para sugerencias, eventos y consultas. Disponemos del siguiente correo electrónico para nuestros clientes:</p>
+                <a href="mailto:kumasushi@gmail.com" span class="destacable">kumasushi@gmail.com</span></a>
+            </div> 
+
+            <!--Añadimos la informacion de direccion-->
+            <div class="Button-Dir">
+                <button onclick="ocultarDireccion()">Dirección</button>
+            </div>
+           <div class="ubicacion-informacion" id="direccion">
+                <h3>Ubicación</h3>
+                <p>Nos ubicamos en: <span id="text-bold">Carrer inesperat, 5 Son Riera.</span></p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1538.074241367363!2d2.715754171110497!3d39.55625942711918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129794150fda224f%3A0x7a661a73f64eedd0!2sSon%20Banya%2C%20Palma%2C%20Illes%20Balears!5e0!3m2!1ses!2ses!4v1709550942323!5m2!1ses!2ses" 
+                width="50" height="25" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    </main>
+
+    <div class="comentario">
+        <button id="openCommentBox">Dejar un comentario</button>
+    </div>
+    <div id="commentBox" class="comment-box">
+        <span class="close" id="closeCommentBox">&times;</span>
+        <h2>Dejar un comentario</h2>
+        <input type="text" id="name" placeholder="Tu nombre">
+        <textarea id="comment" placeholder="Tu comentario"></textarea>
+        <div class="rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+        </div>
+        <button id="submitComment">Enviar</button>
+    </div>
+
+<div id="comments">
+    <!-- Aquí se mostrarán los comentarios -->
+</div>
+
+    <footer class= "footer"> <!--Aquí empieza el footer-->
+        <div class="wrap-footer">
+            <div class="text-element-footer element-footer">
+                <h3 class="main-c"> Sobre nosotros</h3>
+                <p><span class="texto">Kuma Sushi</span> fue producto de dos amigos en su impulso 
+                    de fusionar dos cosas que consideran relevantes. Su amor
+                    por la cultura japónesa (Y lo que ella sugiere). Así como, 
+                    la importancia de generar un espacio con cáracter familiar, 
+                    un lugar con calidez donde quieras quedarte mucho más tiempo 
+                    con los que estimas. 
+                    <span class="Bienvenido">¡Bienvenidos a KumaSushi!</span>
+                </p>
+            </div>
+
+            <div class="text-element-footer">
+                <h5>Dirección</h5>
+                <ul>
+                    <li>Carrer inesperat, 5</li>
+                    <li>Son Riera, Palma - 07004</li>
+                    <li>Móvil: (+34) 600 22 33 44</li>
+                    <li>Télefono: (+34) 900 01 02 03</li>
+                </ul>
+            </div>
+
+            <div class="text-element-footer">
+                <h5>Más Información</h5>
+                <ul>
+                    <li>
+                        <a href="Home.html">Principal</a>
+                    </li>
+                    <li>
+                        <a href="Carta.html">Carta</a>
+                    </li>
+                    <li>
+                        <a href="Reservas.html">Reservas</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="social-element-footer">
+                <h5>Síguenos</h5>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/?locale=ca_ES">
+                            <i class="fa-brands fa-facebook"></i>     
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/?lang=ca">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        <div class="footer-creds">
+                <div class="copy-creds">
+                    <p>@2024 · Todos los derechos reservados. </p>
+                </div>
+                <div class="legal-creds">
+                    <ul>
+                        <li>
+                            <a href="https://www.cookiebot.com/es/politica-de-privacidad-para-mi-web/?utm_source=google&utm_medium=cpc&utm_term=&utm_campaign=cb_dm_ww_spa_dsa_search_prf_lead_n_ca&utm_ad_group=ww-es-blog-es&gclid=CjwKCAiAvdCrBhBREiwAX6-6UunD9OQKy4jSUyHLOgn1K6mcwQk2L_N9OjSuTdRiRYHQs_s1p7qX2xoCIOgQAvD_BwE">Política de Privacidad</a>
+                        </li>
+                        <li>
+                            <a href="https://www.cookiebot.com/es/politica-de-privacidad-para-mi-web/?utm_source=google&utm_medium=cpc&utm_term=&utm_campaign=cb_dm_ww_spa_dsa_search_prf_lead_n_ca&utm_ad_group=ww-es-blog-es&gclid=CjwKCAiAvdCrBhBREiwAX6-6UunD9OQKy4jSUyHLOgn1K6mcwQk2L_N9OjSuTdRiRYHQs_s1p7qX2xoCIOgQAvD_BwE">Política de Cookies</a>
+                        </li>
+                        <li>
+                            <a href="https://www.cookiebot.com/es/politica-de-privacidad-para-mi-web/?utm_source=google&utm_medium=cpc&utm_term=&utm_campaign=cb_dm_ww_spa_dsa_search_prf_lead_n_ca&utm_ad_group=ww-es-blog-es&gclid=CjwKCAiAvdCrBhBREiwAX6-6UunD9OQKy4jSUyHLOgn1K6mcwQk2L_N9OjSuTdRiRYHQs_s1p7qX2xoCIOgQAvD_BwE">Aviso Legal</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        </div>
+    </footer> 
+
+    <script src="/assets/js/formulario.js"></script>
+    <script src="/assets/js/comentario.js"></script>
+</body>
+</html>

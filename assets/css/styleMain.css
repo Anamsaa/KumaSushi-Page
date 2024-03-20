@@ -1,0 +1,387 @@
+
+* {
+    font-family: "Monserrat";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 1rem; 
+}
+
+a:hover {
+    color: orange; 
+}
+
+/*header*/
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    /*Distribución de los elementos en el eje horizontal*/
+    justify-content:space-around;
+    background-color: #bfb9b6;
+}
+
+.navbar .logo a {
+    font-size: 1.5rem; 
+    font-weight: bold;
+}
+
+.navbar .links {
+    display: flex; 
+    gap: 2rem; 
+}
+
+.navbar .toggle_btn {
+    color: #ffffff;
+    font-size: 24px; 
+    cursor: pointer;
+    display: none;
+}
+
+.action_btn {
+    background-color: #ca403f;
+    color: #ffffff;
+    padding: 0.5rem 1rem; 
+    border: none; 
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer; 
+    transition: scale 0.2 ease; 
+}
+
+.action_btn:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+.action_btn:active {
+    scale: 0.95; 
+}
+
+/*Responsive barra de navegación*/
+@media (max-width: 992px) {
+    .navbar .links,
+    .navbar .action_btn {
+        display: none; 
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+}
+
+/*Dropdown menu*/
+.dropdown_menu {
+    position: absolute;
+    right: 2 rem;
+    top: 60px; 
+    height: 200px;
+    width: 300px; 
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px; 
+    transition: heigth 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open {
+    height: 240px;
+}
+
+.dropdown_menu li {
+    padding: 0.7rem;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown_menu .action_btn {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+/*Responsive dropdown menu*/
+@media (max-width: 576px) {
+    .dropdown_menu {
+        left: 2rem; 
+        width: unset;
+    }
+}
+
+/*Main*/ 
+
+/*Carrusel de imágenes de fondo*/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 730px;
+}
+
+.carousel-container{ /*Contenedor de color blanco, por eso sobresalían los picos de las imágenes*/
+    position: relative; /*Para que los íconos no se salgan del contenedor*/
+    width: 100%; 
+    height: 100%;
+    background-color: #e0e0e0;
+    overflow: hidden; 
+    object-fit: cover;
+}
+
+.carruseles{
+    width: 400%; /*Tamaño del carrusel*/
+    height: 100%;
+    display: flex;
+    transition: translateX(-25%);
+}
+
+.slider-image{
+    width: calc(100% /4); /*Se divide en el número de imágenes que hay*/
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-image img{ 
+    width: 100%; /*500px*/  /*Darle el mismo valor del container-carrusel*/
+    height: 100%;
+    object-fit: cover; /*Propiedad para que las imágenes no pierdan calidad */
+}
+
+.btn-izquierdo{
+    display: flex;
+    position: absolute; 
+    top: 50%; 
+    font-size: 1.5rem; 
+    background-color: transparent; 
+    border-radius: 50%;
+    padding: 5px; 
+    font-weight: 600;
+    color: #ffffff81;
+    transform: translate(0,-50%); /*Forma para poder centrar los íconos*/
+    transition: .5s ease; /*Agregarle transición a los botones*/
+}
+
+.btn-derecho{
+    display: flex;
+    position: absolute; 
+    top: 50%; 
+    font-size: 1.5rem; 
+    background-color: transparent; 
+    border-radius: 50%;
+    padding: 5px; 
+    font-weight: 600;
+    color: #ffffff81;
+    transform: translate(0,-50%); /*Forma para poder centrar los íconos*/
+    transition: .5s ease; /*Agregarle transición a los botones*/
+}
+
+.btn-izquierdo:hover{
+    background-color: #57575716;
+    color: #fff;
+}
+
+.btn-derecho:hover{
+    background-color: #57575716;
+    color: #fff;
+}
+
+.btn-derecho{
+    right: 10px;
+}
+.btn-izquierdo{
+    left: 10px;
+}
+ 
+/*Botón de reservas*/
+.reservation-button-container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    margin-top: 20px; /* Espacio superior para separar del carrusel */
+}
+
+.reservation-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ca403f;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.reservation-button:hover {
+    background-color: #af3837;
+}
+
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: auto; 
+    width: 100%;
+    background-color: #ffffff;
+    color: #131814;
+}
+
+footer ul {
+    padding: 0; 
+}
+
+footer li {  
+    list-style: none;
+}
+
+.wrap-footer { /*Aquí ponemos la distribución de columnas*/
+    display: grid;
+    grid-template-columns: 30% 15% 
+    15% 20%;
+    justify-content: space-between;
+    column-gap: 6%;
+    padding: 1rem;
+    margin: 2rem auto; 
+    max-width: 1200px;
+    margin-top: auto; 
+}
+
+.element-footer h5 {
+    margin: 1rem 0;
+}
+
+h3 {
+    color: #ca403f;
+}
+
+h5 {
+    color: #ca403f;
+}
+
+.text-element-footer li { 
+    line-height: 2;  
+}
+
+.text-element-footer li a { 
+    color: #131814;
+    list-style: none;
+    text-decoration: none;
+}
+
+.social-element-footer a { /*Estilos de iconos para reder sociales*/
+    display: inline-block; 
+    min-height: 40px;
+    width: 40px; 
+    margin: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center; 
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ca403f;
+}
+
+.social-element-footer a:hover { /*Hoover para redes*/
+    background-color: #0e01028a;
+}
+
+.footer-creds {
+    display:flex;
+    justify-content: space-between; 
+    padding: 0.1rem;
+    color: #ca403f;
+    font-size: .9rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.legal-creds ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.legal-creds ul li {
+    padding-right: 1rem;
+}
+
+
+.legal-creds li a {
+    list-style: none;
+    text-decoration: none;
+    color: #ca403f;
+    font-size: .9rem;
+    margin-right: .5rem;
+}
+
+/*Modificaciones del span en el apartado "Sobre nosostros*/
+
+.texto {
+    font-weight: 300 ;
+}
+
+.Bienvenido {
+    font-weight: 600;
+    color: #ca403f;
+}
+
+/*Responsive Footer*/
+
+/*Medida para Smarthphones*/
+@media screen and (max-width: 767px) { /*Se muestran dos columnas si la pantalla es inferior a 768px*/
+    .wrap-footer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:480px) { /*Se muestra 1 columna*/
+    .wrap-footer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:320px) { /*Se muestran los datos en forma de columna*/
+    .footer-creds{
+        flex-flow: column;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,7 @@
+Color negro: #131814
+Color blanco: #ffffff
+Color gris: #bfb9b6
+Color rosa: #FBB4B8
+Color rojo: #ca403f
+Color naranja claro: #efcaa5 
+Color naranja fuerte: fe7c04
