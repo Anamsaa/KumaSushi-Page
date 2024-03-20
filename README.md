@@ -19,16 +19,14 @@ Cuenta con tres conceptos elementales: la restauración, la introducción al neg
 Teniendo en cuenta que nos basamos en un restaurante con influencias asiáticas, decidimos basar nuestra paleta de colores en colores seleccionados de distintos platos disponibles en el restaurante tales como el nigiri, sashimi, rolls, entre otros. Además de los utilizados en el logo.
 
 #### Referencias
-
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+![Referencias](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/d58cb274-1bc0-47e1-b761-e910375f1606)
 
 #### Logo
-
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+![logo](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/4ced8d6b-8be4-4683-80b6-a6e1cee38b89)
 
 ### Lista de colores
-
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+![Paleta](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/0fd3cf6b-5e3b-4983-9034-d86150cf8a0b)
+![KumaSushi](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/b91cd003-b119-47ae-a94e-d2515750506c)
 
 * Color negro: #131814
 * Color blanco: #ffffff
@@ -36,7 +34,7 @@ Teniendo en cuenta que nos basamos en un restaurante con influencias asiáticas,
 * Color rosa: #FBB4B8
 * Color rojo: #ca403f
 * Color naranja claro: #efcaa5
-* Color naranja fuerte: fe7c04
+* Color naranja fuerte: #fe7c04
 
 ## Estructura de carpetas y archivos que conforman la página web
 
@@ -63,7 +61,8 @@ En esta carpeta se encuentran:
 
     * Dentro de la carpeta del proyecto, se encuentran 4 archivos html referentes a las páginas construidas para la elaboración de nuestra web, de las cuales hablaremos a continuación.
 
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+[Organización](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/80f04a23-f1dd-4616-8cba-fa9c21d65f39)
+
 
 ## Páginas
 
@@ -71,16 +70,16 @@ Teniendo en cuenta la idea y el objetivo del proyecto. Se desarrollan cuatro pá
 
 ### Main
 
-![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/9317d6e1-098f-4482-bebc-874cc63247e6)
-![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2ed01849-f254-440e-a327-90fd7096187c)
+![Main](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/9317d6e1-098f-4482-bebc-874cc63247e6)
+![Carrusel](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2ed01849-f254-440e-a327-90fd7096187c)
 
 ### Inicio
 
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+![Inicio](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
 
 ### Carta
-![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/663bd16c-99e0-4b61-884f-f07016eb9b1c)
-![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/5c739fd7-a43c-465d-9668-7c6d2422e112)
+![Carta](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/663bd16c-99e0-4b61-884f-f07016eb9b1c)
+![Desplegable](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/5c739fd7-a43c-465d-9668-7c6d2422e112)
 
 
 ### Reservas
@@ -89,10 +88,10 @@ Teniendo en cuenta la idea y el objetivo del proyecto. Se desarrollan cuatro pá
 2. Se ha modificado el apartado de Horarios, Contacto y Dirección para que se puedan esconder los elementos.
 3. Se ha añadido un botón para poder dejar un comentario justo antes del footer.
 
-![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2656eac3-0c5f-4b63-adeb-213496e4a02e)
-![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/42ad818c-8c52-45b3-9e8e-b41994564259)
-![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/eaef1051-a513-4305-80ad-8a670761791b)
-![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/0dd8cb0c-58f6-4d2e-963d-a7342c1a7cc6)
+![Reserva](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2656eac3-0c5f-4b63-adeb-213496e4a02e)
+![Botones](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/42ad818c-8c52-45b3-9e8e-b41994564259)
+![Caja-Comentarios](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/eaef1051-a513-4305-80ad-8a670761791b)
+![Alert](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/0dd8cb0c-58f6-4d2e-963d-a7342c1a7cc6)
 
 ## Aspectos requeridos
 
