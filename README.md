@@ -19,7 +19,7 @@ Cuenta con tres conceptos elementales: la restauración, la introducción al neg
 Teniendo en cuenta que nos basamos en un restaurante con influencias asiáticas, decidimos basar nuestra paleta de colores en colores seleccionados de distintos platos disponibles en el restaurante tales como el nigiri, sashimi, rolls, entre otros. Además de los utilizados en el logo.
 
 #### Referencias
-![Referencias](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/d58cb274-1bc0-47e1-b761-e910375f1606)
+![Referencias](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/7121701c-bc4a-4b11-9b99-8b3886651da6)
 
 #### Logo
 ![logo](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/4ced8d6b-8be4-4683-80b6-a6e1cee38b89)
