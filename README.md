@@ -78,8 +78,9 @@ Teniendo en cuenta la idea y el objetivo del proyecto. Se desarrollan cuatro pá
 ![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
 
 ### Carta
+![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/663bd16c-99e0-4b61-884f-f07016eb9b1c)
+![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/5c739fd7-a43c-465d-9668-7c6d2422e112)
 
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
 
 ### Reservas
 
@@ -87,7 +88,10 @@ Teniendo en cuenta la idea y el objetivo del proyecto. Se desarrollan cuatro pá
 2. Se ha modificado el apartado de Horarios, Contacto y Dirección para que se puedan esconder los elementos.
 3. Se ha añadido un botón para poder dejar un comentario justo antes del footer.
 
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2656eac3-0c5f-4b63-adeb-213496e4a02e)
+![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/42ad818c-8c52-45b3-9e8e-b41994564259)
+![Uploading image.png…]()
+
 
 ## Aspectos requeridos
 
