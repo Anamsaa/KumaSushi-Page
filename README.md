@@ -69,15 +69,15 @@ Dentro de la página web hay dos estructuras semánticas que se quedan fijas, co
 ![barra](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/5ffb01ec-5b78-45ff-b664-baf642a2dba6)
 
 #### Diseño responsive
-![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/0cea0146-648f-4859-9d65-69edf2e89624)
+![Menu](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/0cea0146-648f-4859-9d65-69edf2e89624)
+![Barra-lateral](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/0a5d6856-7010-433f-bf23-4b29ab575eb6)
+
 
 ### Footer
 ![footer](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/ca72b613-b48a-4dde-a689-fd3c583ad6b7)
 
 #### Diseño responsive 
 ![footer](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/c2f5bca3-ca3f-4eeb-9f0a-8f3b86116a6c)
-
-
 
 
 ## Páginas
@@ -92,6 +92,16 @@ Teniendo en cuenta la idea y el objetivo del proyecto. Se desarrollan cuatro pá
 ### Inicio
 ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/34646d32-09a6-4a33-bffd-c7e0cac4fd87)
 
+#### Menú
+![Efecto](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/5e6a8b22-0e31-4ff7-851a-13689de83f81)
+
+#### Galería de imágenes 
+![Efecto](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/420fd054-4a0e-4868-9026-cf91a32e8c1d)
+
+#### Botón de video 
+![Efecto](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2d111bef-fe35-4192-a631-1a73275dcb99)
+
+![Botón](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/a449f2d1-fbd0-434d-8e90-defbc1567d3c)
 
 
 ### Carta
@@ -125,6 +135,19 @@ Teniendo en cuenta la idea y el objetivo del proyecto. Se desarrollan cuatro pá
   ![funciones](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/db05c9e7-245d-411c-a7cd-c2f263c5725c)
     3.  Por último, hemos creado un script para que cuando abras la página o le cliques al boton, puedas poner una reseña o comentario, es un script que se llama al clickar el button genera un evento para que se salga una página emergente para poder poner el comentario, al poner el comentario se añade justo encima del footer el comentario. Este último hemos usado vídeos de Youtube y foros para poder llegar a crearlo.
 ![comentarios](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/4f77c3a6-3f15-4a3c-b4da-71c190de37ba)
+
+
+##  Responsive 
+
+### Main
+
+### Inicio
+![inicio](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2aef1bf8-096a-47b8-a6c3-e4f3cd5e3d7a)
+
+### Carta
+![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/db054bc5-02d3-4c66-9dee-d2e793544967)
+
+### Reservas
 
 ## Aspectos requeridos
 
