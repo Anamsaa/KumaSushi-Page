@@ -88,6 +88,12 @@ header {
 }
 
 /*Responsive barra de navegación*/
+@media (min-width: 992px) {
+    .navbar-btn {
+        display: none; 
+    }
+}
+
 @media (max-width: 992px) {
     .navbar .links,
     .navbar .action_btn {
