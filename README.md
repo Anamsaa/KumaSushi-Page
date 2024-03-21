@@ -337,8 +337,10 @@ Cabe de destacar, que cuenta con herramientas que resultaron importantes en el d
 
 |Tarea|Responsable |
 |-------|-----|
-|Css | Ana Saavedra |
-|Página 1 (html) Home |Bernat López |
-|Página 2 (html) Carta |Ana Saavedra |
-|Página 3 (html) Reservas |Ana Saavedra |
+|Css | Ana Saavedra, Bernat López |
+|Página 1 Home JS y CSS |Ana Saavedra |
+|Página 2  Carta JS y CSS |Ana Saavedra |
+|Página 3  Reservas JS, CSS y Form|Bernat López |
 |Responsive (Adaptabilidad de la Web)|Bernat López |
+|Página 4 (html, css, JS) Inicio|Ana Saavedra |
+
