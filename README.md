@@ -121,7 +121,7 @@ Antes de llegar al footer, encontramos un contenedor con videos. Que tiene junto
 
 ![Botón](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/a449f2d1-fbd0-434d-8e90-defbc1567d3c)
 
-![Script](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/a449f2d1-fbd0-434d-8e90-defbc1567d3c)
+![Script](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/4dd28ceb-9f7e-4d36-9247-f07bd38c5674)
 
 
 ### Carta
