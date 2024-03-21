@@ -19,16 +19,14 @@ Cuenta con tres conceptos elementales: la restauración, la introducción al neg
 Teniendo en cuenta que nos basamos en un restaurante con influencias asiáticas, decidimos basar nuestra paleta de colores en colores seleccionados de distintos platos disponibles en el restaurante tales como el nigiri, sashimi, rolls, entre otros. Además de los utilizados en el logo.
 
 #### Referencias
-
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+![Referencias](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/7121701c-bc4a-4b11-9b99-8b3886651da6)
 
 #### Logo
-
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+![logo](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/4ced8d6b-8be4-4683-80b6-a6e1cee38b89)
 
 ### Lista de colores
-
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+![Paleta](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/0fd3cf6b-5e3b-4983-9034-d86150cf8a0b)
+![KumaSushi](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/b91cd003-b119-47ae-a94e-d2515750506c)
 
 * Color negro: #131814
 * Color blanco: #ffffff
@@ -36,7 +34,7 @@ Teniendo en cuenta que nos basamos en un restaurante con influencias asiáticas,
 * Color rosa: #FBB4B8
 * Color rojo: #ca403f
 * Color naranja claro: #efcaa5
-* Color naranja fuerte: fe7c04
+* Color naranja fuerte: #fe7c04
 
 ## Estructura de carpetas y archivos que conforman la página web
 
@@ -63,7 +61,8 @@ En esta carpeta se encuentran:
 
     * Dentro de la carpeta del proyecto, se encuentran 4 archivos html referentes a las páginas construidas para la elaboración de nuestra web, de las cuales hablaremos a continuación.
 
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+![Organización](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/80f04a23-f1dd-4616-8cba-fa9c21d65f39)
+
 
 ## Páginas
 
@@ -71,23 +70,47 @@ Teniendo en cuenta la idea y el objetivo del proyecto. Se desarrollan cuatro pá
 
 ### Main
 
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+![Main](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/9317d6e1-098f-4482-bebc-874cc63247e6)
+![Carrusel](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2ed01849-f254-440e-a327-90fd7096187c)
 
 ### Inicio
 
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+![Inicio](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
 
 ### Carta
+![Carta](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/663bd16c-99e0-4b61-884f-f07016eb9b1c)
+![Desplegable](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/5c739fd7-a43c-465d-9668-7c6d2422e112)
 
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
 
 ### Reservas
 
-1. Se ha añadido un formulario con diferentes validaciones para poner los datos y simular que se realizan reservas.
-2. Se ha modificado el apartado de Horarios, Contacto y Dirección para que se puedan esconder los elementos.
-3. Se ha añadido un botón para poder dejar un comentario justo antes del footer.
+1. Se ha añadido un formulario con diferentes validaciones para poner los datos y simular que se realizan reservas. Este formulario está soporteado por un JS que realiza las validaciones en los campos.
 
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+![Reserva](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2656eac3-0c5f-4b63-adeb-213496e4a02e)
+
+![Alert](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/0dd8cb0c-58f6-4d2e-963d-a7342c1a7cc6)
+
+2. Se ha modificado el apartado de Horarios, Contacto y Dirección para que se puedan esconder los elementos, así el que le moleste está información podrá cerrar el las cajas para que no le moleste. Hay un JS para cada div para poder ocultar los elementos.
+   
+![Botones](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/42ad818c-8c52-45b3-9e8e-b41994564259)
+
+3. Se ha añadido un alert para que cuando inicies la página ya te pida poner un comentario, este comentario se puede cerrar al salir, también hay un botón para que se pueda reabrir si se ha cerrado anteriormente la pestaña. Al poner los comentarios, se irán añadiendo en la parte inferior del Body, justo debajo del botón de comentarios y por encima del footer.
+   
+![Caja-Comentarios](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/eaef1051-a513-4305-80ad-8a670761791b)
+
+4. Se han creado varias funciones en JS para la interactividad de la página, aquí las explico todas:
+   
+    1.  Creamos la función validacion() para validar el formulario del JS, recogemos los valores introducidos por el usuario y los comparamos usando REGEX, si al final todo es true se enviría la petición, si es false, salta un ALERT con diferente mensaje si ha fallado en alguno de los campos.
+       
+  ![Validación](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/cf0c815d-d719-4f3e-8552-84101c10efbd)
+  
+    2.  Se han creado una serie de funciones: ocultarHorarios(), ocultarCorreo(), ocultarDireccion() para poder ocultar o abrir los elementos descriptivos de la página.
+    
+  ![funciones](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/db05c9e7-245d-411c-a7cd-c2f263c5725c)
+  
+    3.  Por último, hemos creado un script para que cuando abras la página o le cliques al boton, puedas poner una reseña o comentario, es un script que se llama al clickar el button genera un evento para que se salga una página emergente para poder poner el comentario, al poner el comentario se añade justo encima del footer el comentario. Este último hemos usado vídeos de Youtube y foros para poder llegar a crearlo.
+    
+![comentarios](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/4f77c3a6-3f15-4a3c-b4da-71c190de37ba)
 
 ## Aspectos requeridos
 
@@ -235,7 +258,8 @@ Esta es una plataforma de desarrollo colaborativo, la utilizamos para almacenar 
 
 Es un editor de código fuente que proporciona herramientas y características avanzadas para el desarrollo de la web. En esta administramos y coordinamos _la maquetación y estilos de la página_. Gracias a extensiones como "**Live Share**" tuvimos una previsualización de cada uno de los documentos _(.html)._
 
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/70500c49-d8a6-4ea9-b34c-23d3929dcd5c)
+
+![vsc](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2879debc-78b4-4b9c-9570-a962d119efbf)
 
 #### Google Fonts
 
@@ -252,7 +276,7 @@ Cabe de destacar, que cuenta con herramientas que resultaron importantes en el d
 
 * **Depuración**: Utiliza la consola del navegador para detectar errores y realizar pruebas de rendimiento.
 
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/eaca8861-4ede-4f3b-9143-0f0189bfe903)
+![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/c6fec45f-97df-464d-bd2b-023a7af01809)
 
 ## Distribución de tareas
 
