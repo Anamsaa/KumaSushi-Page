@@ -7,11 +7,11 @@ const btnIzquierdo = document.querySelector(".btn-izquierdo"),
       sliderSection = document.querySelectorAll(".slider-image");
 
 //Cada vez que se da click en el botón derecho la funcionalidad activa el cambio de imagen 
-
 btnIzquierdo.addEventListener("click", e => moverIzquierda());
 btnDerecho.addEventListener("click", e => moverDerecha());
 
 //Para movimiento automatico de las imágenes
+//setInterval es una función en JavaScript que ejecuta un fragmento de código repetidamente, con un intervalo de tiempo específico entre cada ejecución.
 setInterval(() => {
     moverDerecha()
 }, 3000);
@@ -19,6 +19,13 @@ setInterval(() => {
 let operacion = 0;
 let counter = 0;
 let widthImg = 100 / sliderSection.length;
+
+//counter representa elíndice de la imagen actual que se está mostrando
+//Después de decrementar counter, se verifica si su valor es menor que 0. 
+//Si esto es verdadero, significa que estamos tratando de movernos hacia la izquierda desde la primera imagen.
+
+//Si counter es menor que 0, lo establecemos en el índice de la última imagen (sliderSection.length - 1). Luego, calculamos la nueva posición 
+//(operacion) multiplicando el ancho de la imagen por el índice de la última imagen. Esto nos permitirá movernos a la última imagen.
 
 function moverDerecha(){
     if (counter >= sliderSection.length -1){
@@ -33,6 +40,8 @@ function moverDerecha(){
     slider.style.transition = "all ease .6s";
     }
 }
+
+//Decrementa el contador para moverse hacia la izquierda en las imágenes
 function moverIzquierda(){
     counter --; 
     if (counter < 0){

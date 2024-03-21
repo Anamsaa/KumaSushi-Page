@@ -1,3 +1,12 @@
+
+//Las funciones alteran la visibildad de cada una de las secciones de la carta 
+//Verfica el estado del elemento recuperado por el document.getElementById
+
+//Si el valor de display es "none" (es decir, si el elemento está oculto), 
+//la función cambia su estilo para mostrar el elemento estableciendo display a "grid"
+
+//Si el valor de display no es "none", lo que significa que el elemento ya está visible, 
+//la función cambia su estilo para ocultar el elemento estableciendo display a "none" 
 function ocultarEntrantes(){
     var ocuEntrantes = document.getElementById("wrap-entrantes");
     if(ocuEntrantes.style.display == "none"){
