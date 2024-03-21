@@ -13,16 +13,12 @@ function cerrarImagen(){
 }
 
 //Función bóton de videos
-const btn = document.querySelector("btn_video");
-const videoContainer = document.querySelector("video-container");
 
-const close = document.querySelector(".close");
+function abrirVideo(){
+    document.getElementById("modal-video").classList.add('show');
+}
 
-    btn.addEventListener('click', ()=>{
-        videoContainer.classList.add("show");
-    })
-
-    close.addEventListener('click', ()=>{
-        videoContainer.classList.remove("show");
-    })
+function cerrarVideo(){
+    document.getElementById("modal-video").classList.remove('show');
+}
 
