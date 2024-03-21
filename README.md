@@ -69,16 +69,18 @@ Dentro de la página web hay dos estructuras semánticas que se quedan fijas, co
 ![barra](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/5ffb01ec-5b78-45ff-b664-baf642a2dba6)
 
 #### Diseño responsive
+El diseño de la barra lateral se establece con una función que permite acceder a elementos del DOM y manipular su aparición con la propiedad de estilos .styles definiendo el display.
 ![Menu](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/0cea0146-648f-4859-9d65-69edf2e89624)
 ![Barra-lateral](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/0a5d6856-7010-433f-bf23-4b29ab575eb6)
-
+![script](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/6c521dcf-7503-4010-8dcb-05413052e6f6)
 
 ### Footer
+
 ![footer](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/ca72b613-b48a-4dde-a689-fd3c583ad6b7)
 
 #### Diseño responsive 
-![footer](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/c2f5bca3-ca3f-4eeb-9f0a-8f3b86116a6c)
 
+![footer](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/c2f5bca3-ca3f-4eeb-9f0a-8f3b86116a6c)
 
 ## Páginas
 
@@ -86,27 +88,51 @@ Teniendo en cuenta la idea y el objetivo del proyecto. Se desarrollan cuatro pá
 
 ### Main
 
+EL main es la página principal que recibe al usuario, esta se compone por la barra de navegación, un carrusel de imagenes con un link a la página de reservas. Y por último, el footer. 
+
 ![Main](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/9317d6e1-098f-4482-bebc-874cc63247e6)
+
+Sobre el carrusel: Este carrusel es automático, tiene iconos laterales que permiten que los usuarios puedan pasar las imágenes de derecha a izquierda o viceversa. 
+
 ![Carrusel](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2ed01849-f254-440e-a327-90fd7096187c)
 
+El script de esta función que permite el movimiento de las imágenes se denomina carrusel.js 
+
+[Script](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/3fb55818-7d7f-4a0e-98f5-8feebb9b2236)
+[Script](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/e8603be6-af31-4178-93d3-74eb19dc8cd9)
+
 ### Inicio
+Esta compuesto por defecto por el nav y el footer. Tiene dos sections, una galeria interactiva y un apartado con videos.
 ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/34646d32-09a6-4a33-bffd-c7e0cac4fd87)
 
-#### Menú
+#### Visor de imágenes
+Al darle click en cada imagen del la galería, ésta cambia la escala de tamaño y con un icono ubicado en la esquina superior derecha puedes cerrarlo. Además, cuenta con efectos al pasar el cursor por la imagen. La organización de la galeria se deriba de un display de tipo grid con manejo de espacio.
+
 ![Efecto](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/5e6a8b22-0e31-4ff7-851a-13689de83f81)
 
 #### Galería de imágenes 
 ![Efecto](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/420fd054-4a0e-4868-9026-cf91a32e8c1d)
 
+Antes de llegar al footer, encontramos un contenedor con videos. Que tiene junto a él un botón que llama a una función que permite visualizar el video ocupando un mayor tamaño de la página, y que nos da la opción de cerrarlo.
+
 #### Botón de video 
+
 ![Efecto](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2d111bef-fe35-4192-a631-1a73275dcb99)
 
 ![Botón](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/a449f2d1-fbd0-434d-8e90-defbc1567d3c)
 
+![Script](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/a449f2d1-fbd0-434d-8e90-defbc1567d3c)
+
 
 ### Carta
+La carta se basa en un menú desplegable, diseñado con una cuadrícula que corresponde a tres características escenciales imagen del producto, descripción y precio. Para ello utilizamos un display de tipo grid. 
+Al pasar el cursor, cambiamos la escala de la imagen con un hover para que esta sea más visible para el usuario. Además de que el contenido se puede desplegar, gracias a funciones de ocultamiento. 
+
 ![Carta](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/663bd16c-99e0-4b61-884f-f07016eb9b1c)
+
 ![Desplegable](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/5c739fd7-a43c-465d-9668-7c6d2422e112)
+
+![script](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/aecdf526-0657-4b42-8eb0-afee74f7d8e1)
 
 
 ### Reservas
