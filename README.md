@@ -239,7 +239,8 @@ Esta es una plataforma de desarrollo colaborativo, la utilizamos para almacenar 
 
 Es un editor de código fuente que proporciona herramientas y características avanzadas para el desarrollo de la web. En esta administramos y coordinamos _la maquetación y estilos de la página_. Gracias a extensiones como "**Live Share**" tuvimos una previsualización de cada uno de los documentos _(.html)._
 
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/70500c49-d8a6-4ea9-b34c-23d3929dcd5c)
+
+![vsc](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2879debc-78b4-4b9c-9570-a962d119efbf)
 
 #### Google Fonts
 
@@ -256,7 +257,7 @@ Cabe de destacar, que cuenta con herramientas que resultaron importantes en el d
 
 * **Depuración**: Utiliza la consola del navegador para detectar errores y realizar pruebas de rendimiento.
 
-![image](https://github.com/BernatL99/KumaSushi/assets/147981377/eaca8861-4ede-4f3b-9143-0f0189bfe903)
+![Inspeccionar](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2bf7e80c-87f9-4627-bcee-2a5700c62ee)
 
 ## Distribución de tareas
 
