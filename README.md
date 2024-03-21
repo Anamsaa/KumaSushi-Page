@@ -257,7 +257,7 @@ Cabe de destacar, que cuenta con herramientas que resultaron importantes en el d
 
 * **Depuración**: Utiliza la consola del navegador para detectar errores y realizar pruebas de rendimiento.
 
-![Inspeccionar](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2bf7e80c-87f9-4627-bcee-2a5700c62ee)
+![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2bf7e80c-87f9-4627-bcee-2a5700c62ee)
 
 ## Distribución de tareas
 
