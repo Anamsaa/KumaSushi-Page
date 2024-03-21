@@ -130,10 +130,10 @@ Teniendo en cuenta la idea y el objetivo del proyecto. Se desarrollan cuatro pá
     1.  Creamos la función validacion() para validar el formulario del JS, recogemos los valores introducidos por el usuario y los comparamos usando REGEX, si al final todo es true se enviría la petición, si es false, salta un ALERT con diferente mensaje si ha fallado en alguno de los campos.
        
   ![Validación](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/cf0c815d-d719-4f3e-8552-84101c10efbd)
-    2. Se han creado una serie de funciones: ocultarHorarios(), ocultarCorreo(), ocultarDireccion() para poder ocultar o abrir los elementos descriptivos de la página.
+    * Se han creado una serie de funciones: ocultarHorarios(), ocultarCorreo(), ocultarDireccion() para poder ocultar o abrir los elementos descriptivos de la página.
     
   ![funciones](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/db05c9e7-245d-411c-a7cd-c2f263c5725c) 
-    3.  Por último, hemos creado un script para que cuando abras la página o le cliques al boton, puedas poner una reseña o comentario, es un script que se llama al clickar el button genera un evento para que se salga una página emergente para poder poner el comentario, al poner el comentario se añade justo encima del footer el comentario. Este último hemos usado vídeos de Youtube y foros para poder llegar a crearlo.
+    * Por último, hemos creado un script para que cuando abras la página o le cliques al boton, puedas poner una reseña o comentario, es un script que se llama al clickar el button genera un evento para que se salga una página emergente para poder poner el comentario, al poner el comentario se añade justo encima del footer el comentario. Este último hemos usado vídeos de Youtube y foros para poder llegar a crearlo.
 ![comentarios](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/4f77c3a6-3f15-4a3c-b4da-71c190de37ba)
 
 
