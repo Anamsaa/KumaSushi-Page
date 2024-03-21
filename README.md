@@ -154,21 +154,37 @@ Teniendo en cuenta la idea y el objetivo del proyecto. Se desarrollan cuatro pá
 1. Trabajo con espacio de formulario:
 
 * Sección de comentarios
+  ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/116670667/c791e242-55be-42fb-ae01-2b315f52968c)
+  ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/116670667/00220ec6-f7b5-45ef-b22d-8b987385ed02)
+
 * Formulario con validación
+  ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/116670667/ba7501ae-e2d7-4897-9783-a643fca4657c)
 
 2. Manipulación de contenido multimedia:
 
 * Carrusel de imágenes
+  ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/116670667/9306e304-d6d3-47c6-a714-96f0849cdc86)
+  ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/116670667/fc2a0fb9-8e20-4fa0-a23b-abe8cac27a2b)
+
 * Galería interactiva de imágenes
+  ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/116670667/2d7aa975-7c14-41ac-bb29-7214b23dc683)
 
 3. Síntesis de la información:
 Apartados que antes eran visibles, se ocultaron mediante botones. Se resume la información en un solo click.
 
 * Reservas, información
+  ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/116670667/9aeff5b5-b072-4acf-bc50-fb7bc394ae24)
+  ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/116670667/b708797e-1385-4f0e-9d03-c0b7fb6505a2)
+
 * Inicio, más vídeos
+  ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/116670667/6638f1c0-067b-4199-be35-946a70d4c5eb)
+  ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/116670667/7a03adc0-b58a-4d85-a39d-6f087a2c4929)
+
 * Barra de navegación
+  ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/116670667/de00bd1d-48ee-4791-90f0-89a922549d0c)
 
 4. Cambio de estilos a través del JS:
+  ![image](https://github.com/Anamsaa/KumaSushi-Page/assets/116670667/e673775f-5e79-4225-b013-787f418214ee)
 
 ## Maquetación y contenido
 
