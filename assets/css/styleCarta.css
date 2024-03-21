@@ -86,60 +86,76 @@ header {
 }
 
 /*Responsive barra de navegación*/
+@media (min-width: 992px) {
+    .navbar-btn {
+        display: none; 
+    }
+}
+
 @media (max-width: 992px) {
     .navbar .links,
     .navbar .action_btn {
         display: none; 
     }
 
-    .navbar .toggle_btn {
-        display: block;
-    }
-
-    .dropdown_menu {
-        display: block;
+    .sidebar {
+        display: none;
     }
 }
 
-/*Dropdown menu*/
-.dropdown_menu {
+/*Sidebar*/
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #ffffffe0;
+    backdrop-filter: blu(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     display: none;
-    position: absolute;
-    right: 2 rem;
-    top: 60px; 
-    height: 0;
-    width: 300px; 
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(15px);
-    border-radius: 10px; 
-    overflow: hidden;
-    transition: heigth 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
-.dropdown_menu.open {
-    height: 240px;
-}
-
-.dropdown_menu li {
-    padding: 0.7rem;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-}
-
-.dropdown_menu .action_btn {
+.sidebar li {
+    height: 50px;
     width: 100%;
-    display: flex; 
-    justify-content: center;
 }
 
-/*Responsive dropdown menu*/
+.sidebar a {
+    margin-top: 20px;
+    height: 100%;
+    padding: 10px 10px 10px 30px;
+    display: flex;
+    color: #131814;
+    font-weight: bolder;
+}
+
+.sidebar a:hover {
+    color: orange; 
+}
+
+.navbar-btn {
+    color: #ffffff;
+    font-size: 24px; 
+}
+
+.navbar-closebtn {
+    padding: 10px 10px 10px 30px;
+    font-size: 30px;
+}
+/*Fin sidebar*/
+ 
+/*Responsive sidebar*/
 @media (max-width: 576px) {
-    .dropdown_menu {
+    .siderbar {
         left: 2rem; 
         width: unset;
     }
-}
+} 
 /*Aquí finalizan los estilos de la barra de navegación*/
 
 /*Aquí comienzan los estilos del banner*/

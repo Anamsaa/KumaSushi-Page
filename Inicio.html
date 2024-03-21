@@ -17,7 +17,7 @@
 </head>
 <body>
         <header>
-            <nav class="navbar"> <!--Primer hijo del header-->
+            <nav class="navbar"> 
                 <div class="logo"><a href="Main.html">Kuma Sushi</a></div>
                 <ul class="links">
                     <li><a href="Main.html">Home</a></li>
@@ -25,33 +25,39 @@
                     <li><a href="Carta.html">Carta</a></li>
                 </ul>
                 <a href="Reservas.html" class="action_btn">Reservas</a>
-                <div class="toggle_btn" id="toggle_btn">
+                <div class="navbar-btn" onclick="mostrarBarra()">
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </nav> 
             
-            <div class="dropdown_menu open">  <!--Segundo hijo del header-->         
+            <!--Barra de navegación lateral-->
+            <div class="sidebar" id="sidebar"> 
+                    <div class="navbar-closebtn" onclick="cerrarBarra()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
                     <li><a href="Main.html">Home</a></li>
                     <li><a href="Inicio.html">Inicio</a></li>
                     <li><a href="Carta.html">Carta</a></li>
-                    <li><a href="Reservas.html" class="action_btn">Reservas</a></li>
+                    <li><a href="Reservas.html">Reservas</a></li>
             </div>
         </header>
 
         <main>
-             <section class="section_main">
-                 <div class="section-main_text">
-                    <h1>Como KumaSushi<span> ninguno </span></h1>
-                 </div>
+            <section class="quienes-somos">
+                <div class="section-main_text">
+                    <h1>Quiénes Somos</h1>
+                    <p>Somos un equipo apasionado por ofrecer la mejor experiencia gastronómica japonesa. Conoce nuestra historia y nuestros valores.</p>
+                </div>
+                <div class="section-main_image">
+                    <img src="/assets/img/quienes-somos.jpg" alt="Quiénes Somos">
+                </div>
+            </section>
 
-                 <div class="section-main_image">
-                    <img src="" alt="">
-                 </div>
-             </section>
-             
-             <div></div>
-             <div></div>
-
+            <section class="slogan">
+                <img src="/assets/img/slogan-img.jpg" alt="Slogan Imagen">
+                <h1>¡Descubre el auténtico sabor japonés en Kuma Sushi!</h1>
+                <p>Sumérgete en una experiencia única donde cada bocado es un viaje a Japón. Ven y descubre por qué somos la mejor opción para disfrutar de sushi fresco y delicioso.</p>
+            </section>
         </main>
 
         <div class="ful-img" id="fulImgBox"> 
@@ -82,15 +88,7 @@
             <div class="img-container">
                 <img src="/assets/img/inicio/img14.jpeg"  onclick="abrirImagen(this.src)" alt="restaurante">
             </div>
-            <div class="img-container">
-                <img src="/assets/img/inicio/img1.jpg"  onclick="abrirImagen(this.src)" alt="preparación">
-            </div>
-            <div class="img-container">
-                <img src="/assets/img/inicio/img2.jpg"  onclick="abrirImagen(this.src)" alt="preparación">
-            </div>
-            <div class="img-container">
-                <img src="/assets/img/inicio/img3.jpg"  onclick="abrirImagen(this.src)" alt="preparación">
-            </div>
+           
         </div>
 
         <h1>Videos</h1> 
@@ -191,6 +189,7 @@
             </div>
             </div>
         </footer> 
+        <script src="/assets/js/navbar.js"></script>
         <script src="/assets/js/KumaSushi.js"></script>
  </body>
  </html>

@@ -1,16 +1,9 @@
-const toggleBtn = document.getElementById('toggle_btn');
-const toggleBtnIcon = document.querySelector('.toggle_btn i');
-const dropDownMenu = document.querySelector('.dropdown_menu');
- 
-function openmenu() {
-    /*dropDownMenu.classList.toggle('open');
-    const isOpen = dropDownMenu.classList.contains('open');
+function mostrarBarra(){
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'flex'
+}
 
-    toggleBtnIcon.classList = isOpen
-    ? "fa-solid fa-xmark"
-    : "fa-solid fa-bars"*/
-    alert("hola");
-    let dropdown_menu =document.getElementById("dropdown_menu");
-    dropdown_menu.style.height="240px";
-
- }
+function cerrarBarra(){
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'none'
+}

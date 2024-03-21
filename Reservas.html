@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar"> <!--Primer hijo del header-->
+        <nav class="navbar"> 
             <div class="logo"><a href="Main.html">Kuma Sushi</a></div>
             <ul class="links">
                 <li><a href="Main.html">Home</a></li>
@@ -25,18 +25,23 @@
                 <li><a href="Carta.html">Carta</a></li>
             </ul>
             <a href="Reservas.html" class="action_btn">Reservas</a>
-            <div class="toggle_btn" id="toggle_btn">
+            <div class="navbar-btn" onclick="mostrarBarra()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </nav> 
         
-        <div class="dropdown_menu open">  <!--Segundo hijo del header-->         
+        <!--Barra de navegación lateral-->
+        <div class="sidebar" id="sidebar"> 
+                <div class="navbar-closebtn" onclick="cerrarBarra()">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
                 <li><a href="Main.html">Home</a></li>
                 <li><a href="Inicio.html">Inicio</a></li>
                 <li><a href="Carta.html">Carta</a></li>
-                <li><a href="Reservas.html" class="action_btn">Reservas</a></li>
+                <li><a href="Reservas.html">Reservas</a></li>
         </div>
     </header>
+
 
     <section class="wrap-banner-reserva">
         <h1>Información reserva</h1>
@@ -239,7 +244,7 @@
         </div>
         </div>
     </footer> 
-
+    <script src="/assets/js/navbar.js"></script>
     <script src="/assets/js/formulario.js"></script>
     <script src="/assets/js/comentario.js"></script>
 </body>
