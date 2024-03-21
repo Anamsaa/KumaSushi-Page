@@ -98,8 +98,8 @@ Sobre el carrusel: Este carrusel es automático, tiene iconos laterales que perm
 
 El script de esta función que permite el movimiento de las imágenes se denomina carrusel.js 
 
-[Script](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/3fb55818-7d7f-4a0e-98f5-8feebb9b2236)
-[Script](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/e8603be6-af31-4178-93d3-74eb19dc8cd9)
+![Script](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/3fb55818-7d7f-4a0e-98f5-8feebb9b2236)
+![Script](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/e8603be6-af31-4178-93d3-74eb19dc8cd9)
 
 ### Inicio
 Esta compuesto por defecto por el nav y el footer. Tiene dos sections, una galeria interactiva y un apartado con videos.
