@@ -63,6 +63,22 @@ En esta carpeta se encuentran:
 
 ![Organización](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/80f04a23-f1dd-4616-8cba-fa9c21d65f39)
 
+## Secciones fijas
+Dentro de la página web hay dos estructuras semánticas que se quedan fijas, correspondientes a la barra de navegación y el footer. Se adaptan a diversas resoluciones, adecuando su diseño.
+### Barra de navegación
+![barra](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/5ffb01ec-5b78-45ff-b664-baf642a2dba6)
+
+#### Diseño responsive
+![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/0cea0146-648f-4859-9d65-69edf2e89624)
+
+### Footer
+![footer](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/ca72b613-b48a-4dde-a689-fd3c583ad6b7)
+
+#### Diseño responsive 
+![footer](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/c2f5bca3-ca3f-4eeb-9f0a-8f3b86116a6c)
+
+
+
 
 ## Páginas
 
@@ -74,8 +90,9 @@ Teniendo en cuenta la idea y el objetivo del proyecto. Se desarrollan cuatro pá
 ![Carrusel](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/2ed01849-f254-440e-a327-90fd7096187c)
 
 ### Inicio
+![image](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/34646d32-09a6-4a33-bffd-c7e0cac4fd87)
 
-![Inicio](https://github.com/BernatL99/KumaSushi/assets/147981377/4f87a215-6dde-467b-a434-632c446a4d5d)
+
 
 ### Carta
 ![Carta](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/663bd16c-99e0-4b61-884f-f07016eb9b1c)
@@ -103,13 +120,10 @@ Teniendo en cuenta la idea y el objetivo del proyecto. Se desarrollan cuatro pá
     1.  Creamos la función validacion() para validar el formulario del JS, recogemos los valores introducidos por el usuario y los comparamos usando REGEX, si al final todo es true se enviría la petición, si es false, salta un ALERT con diferente mensaje si ha fallado en alguno de los campos.
        
   ![Validación](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/cf0c815d-d719-4f3e-8552-84101c10efbd)
-  
-    2.  Se han creado una serie de funciones: ocultarHorarios(), ocultarCorreo(), ocultarDireccion() para poder ocultar o abrir los elementos descriptivos de la página.
+    2. Se han creado una serie de funciones: ocultarHorarios(), ocultarCorreo(), ocultarDireccion() para poder ocultar o abrir los elementos descriptivos de la página.
     
   ![funciones](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/db05c9e7-245d-411c-a7cd-c2f263c5725c)
-  
     3.  Por último, hemos creado un script para que cuando abras la página o le cliques al boton, puedas poner una reseña o comentario, es un script que se llama al clickar el button genera un evento para que se salga una página emergente para poder poner el comentario, al poner el comentario se añade justo encima del footer el comentario. Este último hemos usado vídeos de Youtube y foros para poder llegar a crearlo.
-    
 ![comentarios](https://github.com/Anamsaa/KumaSushi-Page/assets/147981377/4f77c3a6-3f15-4a3c-b4da-71c190de37ba)
 
 ## Aspectos requeridos
