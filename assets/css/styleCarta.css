@@ -257,6 +257,10 @@ main.carta{
     height: auto;
     background-color:#fde5e5;
   }
+
+  .img-plato-carta:hover {
+    transform:scale(2.20)
+  }
    
   .img-plato-carta img{
     max-width: 100;
